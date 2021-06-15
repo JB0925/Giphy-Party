@@ -77,6 +77,12 @@ input {
     font-size: 15px;
 }
 
+input[type="text"]{
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing:        border-box;
+ }
+
 #searchButton {
     align-self: flex-start;
     margin-bottom: 10px;
