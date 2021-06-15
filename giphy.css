@@ -68,7 +68,7 @@ label {
 
 input {
     align-self: flex-start;
-    box-sizing: border-box;
+    min-width: 0;
     border-radius: 5px;
     height: 35px;
     width: 13rem;
