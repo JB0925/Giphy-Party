@@ -3,10 +3,38 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" 
+        rel="stylesheet"> 
+  <link rel="stylesheet" href="giphy.css">
   <title>Giphy Party!</title>
 </head>
 
 <body>
+  <!-- nav added for CSS practice -->
+  <nav>
+    <h1>Giphy Party</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    
+  </main>
+  <form action="#">
+    <label for="search">Search</label>
+    <input type="text" placeholder="Enter a Search Term" id="search" name="search">
+    <button type="submit" id="searchButton">Search</button>
+    <button type="submit" id="removeButton">Remove</button>
+  </form>
+  <section class="directions">
+    <h2 id="directionHeader">How to Use:</h2>
+    <p>Enter a term to search for and click "Submit", or press enter.
+      Click "Remove" to remove all .gifs from the page.
+    </p>
+  </section>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
