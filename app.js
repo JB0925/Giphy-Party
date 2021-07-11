@@ -7,7 +7,8 @@ const mainContentArea = document.querySelector('.content');
 
 searchButton.addEventListener('click', async function(evt) {
     evt.preventDefault();
-    const response = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${searchInput.value}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
+    const response = await axios.get(`https://api.giphy.com/v1/gifs/search`, 
+                                     {params: {q: searchInput.value, api_key: 'MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym'}});
     searchInput.value = "";
     const idx = Math.floor(Math.random() * response.data.data.length);
     const img = response.data.data[idx].images.fixed_height.url;
