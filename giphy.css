@@ -218,6 +218,6 @@ input[type="text"]{
 
 @media screen and (max-width: 500px) {
     .directions p {
-        margin-left: 9%;
+        margin-left: 40px;
     }
 }
