@@ -120,7 +120,7 @@ input[type="text"]{
 
 .directions p {
     line-height: 1.8rem;
-    margin-left: 54px;
+    margin-left: 46px;
 }
 
 .content {
@@ -218,6 +218,10 @@ input[type="text"]{
 
 @media screen and (max-width: 500px) {
     .directions p {
-        left: 3%;
+        left: -5%;
+    }
+
+    .directions h2 {
+        margin-left: -35%;
     }
 }
