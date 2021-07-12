@@ -56,7 +56,7 @@ form {
     align-items: center;
     width: 20%;
     margin-top: 20%;
-    margin-left: 13.5%;
+    margin-left: 15%;
     margin-right: 24px;
 }
 
@@ -115,18 +115,18 @@ input[type="text"]{
 
 
 .directions h2 {
-    margin-left: -36%;
+    margin-left: -32%;
 }
 
 .directions p {
     line-height: 1.8rem;
-    margin-left: 46px;
+    margin-left: 54px;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
-    grid-column: 1 / 10;
+    grid-column: 1 / 9;
     margin-left: 30px;
     margin-top: 30px;
 }
